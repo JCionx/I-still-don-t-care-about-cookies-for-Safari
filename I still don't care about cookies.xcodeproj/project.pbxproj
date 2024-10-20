@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90559D9F2CC5542A0088D614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90559D9E2CC5542A0088D614 /* AppDelegate.swift */; };
+		90559DA32CC5542A0088D614 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 90559DA12CC5542A0088D614 /* Main.html */; };
+		90559DA52CC5542A0088D614 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90559DA42CC5542A0088D614 /* Icon.png */; };
+		90559DA72CC5542A0088D614 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 90559DA62CC5542A0088D614 /* Style.css */; };
+		90559DA92CC5542A0088D614 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 90559DA82CC5542A0088D614 /* Script.js */; };
+		90559DAB2CC5542A0088D614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90559DAA2CC5542A0088D614 /* ViewController.swift */; };
+		90559DAE2CC5542A0088D614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90559DAC2CC5542A0088D614 /* Main.storyboard */; };
+		90559DB02CC5542B0088D614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90559DAF2CC5542B0088D614 /* Assets.xcassets */; };
+		90559DBD2CC5542B0088D614 /* I_still_don_t_care_about_cookiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90559DBC2CC5542B0088D614 /* I_still_don_t_care_about_cookiesTests.swift */; };
+		90559DC72CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90559DC62CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITests.swift */; };
+		90559DC92CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90559DC82CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITestsLaunchTests.swift */; };
+		90559DCF2CC5542B0088D614 /* I still don't care about cookies Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 90559DCE2CC5542B0088D614 /* I still don't care about cookies Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90559DD42CC5542B0088D614 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90559DD32CC5542B0088D614 /* SafariWebExtensionHandler.swift */; };
+		90559DEF2CC5542B0088D614 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 90559DE72CC5542B0088D614 /* LICENSE */; };
+		90559DF02CC5542B0088D614 /* manifest_v2.json in Resources */ = {isa = PBXBuildFile; fileRef = 90559DE82CC5542B0088D614 /* manifest_v2.json */; };
+		90559DF12CC5542B0088D614 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 90559DE92CC5542B0088D614 /* icons */; };
+		90559DF22CC5542B0088D614 /* manifest_v3.json in Resources */ = {isa = PBXBuildFile; fileRef = 90559DEA2CC5542B0088D614 /* manifest_v3.json */; };
+		90559DF32CC5542B0088D614 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 90559DEB2CC5542B0088D614 /* rules.json */; };
+		90559DF42CC5542B0088D614 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 90559DEC2CC5542B0088D614 /* manifest.json */; };
+		90559DF52CC5542B0088D614 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 90559DED2CC5542B0088D614 /* _locales */; };
+		90559DF62CC5542B0088D614 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 90559DEE2CC5542B0088D614 /* data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90559DB92CC5542B0088D614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90559D932CC5542A0088D614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90559D9A2CC5542A0088D614;
+			remoteInfo = "I still don't care about cookies";
+		};
+		90559DC32CC5542B0088D614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90559D932CC5542A0088D614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90559D9A2CC5542A0088D614;
+			remoteInfo = "I still don't care about cookies";
+		};
+		90559DD02CC5542B0088D614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90559D932CC5542A0088D614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90559DCD2CC5542B0088D614;
+			remoteInfo = "I still don't care about cookies Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90559DDC2CC5542B0088D614 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				90559DCF2CC5542B0088D614 /* I still don't care about cookies Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		90559D9B2CC5542A0088D614 /* I still don't care about cookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I still don't care about cookies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90559D9E2CC5542A0088D614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90559DA22CC5542A0088D614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		90559DA42CC5542A0088D614 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		90559DA62CC5542A0088D614 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		90559DA82CC5542A0088D614 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		90559DAA2CC5542A0088D614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90559DAD2CC5542A0088D614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90559DAF2CC5542B0088D614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90559DB12CC5542B0088D614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90559DB22CC5542B0088D614 /* I_still_don_t_care_about_cookies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = I_still_don_t_care_about_cookies.entitlements; sourceTree = "<group>"; };
+		90559DB32CC5542B0088D614 /* I still don't care about cookies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "I still don't care about cookies.entitlements"; sourceTree = "<group>"; };
+		90559DB82CC5542B0088D614 /* I still don't care about cookiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I still don't care about cookiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90559DBC2CC5542B0088D614 /* I_still_don_t_care_about_cookiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_still_don_t_care_about_cookiesTests.swift; sourceTree = "<group>"; };
+		90559DC22CC5542B0088D614 /* I still don't care about cookiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I still don't care about cookiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90559DC62CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_still_don_t_care_about_cookiesUITests.swift; sourceTree = "<group>"; };
+		90559DC82CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_still_don_t_care_about_cookiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90559DCE2CC5542B0088D614 /* I still don't care about cookies Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "I still don't care about cookies Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90559DD32CC5542B0088D614 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		90559DD52CC5542B0088D614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90559DD62CC5542B0088D614 /* I_still_don_t_care_about_cookies_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = I_still_don_t_care_about_cookies_Extension.entitlements; sourceTree = "<group>"; };
+		90559DE72CC5542B0088D614 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../Downloads/ISDCAC-chrome-source/LICENSE"; sourceTree = "<group>"; };
+		90559DE82CC5542B0088D614 /* manifest_v2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest_v2.json; path = "../../Downloads/ISDCAC-chrome-source/manifest_v2.json"; sourceTree = "<group>"; };
+		90559DE92CC5542B0088D614 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../Downloads/ISDCAC-chrome-source/icons"; sourceTree = "<group>"; };
+		90559DEA2CC5542B0088D614 /* manifest_v3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest_v3.json; path = "../../Downloads/ISDCAC-chrome-source/manifest_v3.json"; sourceTree = "<group>"; };
+		90559DEB2CC5542B0088D614 /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = rules.json; path = "../../Downloads/ISDCAC-chrome-source/rules.json"; sourceTree = "<group>"; };
+		90559DEC2CC5542B0088D614 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Downloads/ISDCAC-chrome-source/manifest.json"; sourceTree = "<group>"; };
+		90559DED2CC5542B0088D614 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../Downloads/ISDCAC-chrome-source/_locales"; sourceTree = "<group>"; };
+		90559DEE2CC5542B0088D614 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = "../../Downloads/ISDCAC-chrome-source/data"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90559D982CC5542A0088D614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DB52CC5542B0088D614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DBF2CC5542B0088D614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DCB2CC5542B0088D614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90559D922CC5542A0088D614 = {
+			isa = PBXGroup;
+			children = (
+				90559D9D2CC5542A0088D614 /* I still don't care about cookies */,
+				90559DBB2CC5542B0088D614 /* I still don't care about cookiesTests */,
+				90559DC52CC5542B0088D614 /* I still don't care about cookiesUITests */,
+				90559DD22CC5542B0088D614 /* I still don't care about cookies Extension */,
+				90559D9C2CC5542A0088D614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90559D9C2CC5542A0088D614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90559D9B2CC5542A0088D614 /* I still don't care about cookies.app */,
+				90559DB82CC5542B0088D614 /* I still don't care about cookiesTests.xctest */,
+				90559DC22CC5542B0088D614 /* I still don't care about cookiesUITests.xctest */,
+				90559DCE2CC5542B0088D614 /* I still don't care about cookies Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90559D9D2CC5542A0088D614 /* I still don't care about cookies */ = {
+			isa = PBXGroup;
+			children = (
+				90559D9E2CC5542A0088D614 /* AppDelegate.swift */,
+				90559DAA2CC5542A0088D614 /* ViewController.swift */,
+				90559DAC2CC5542A0088D614 /* Main.storyboard */,
+				90559DAF2CC5542B0088D614 /* Assets.xcassets */,
+				90559DB12CC5542B0088D614 /* Info.plist */,
+				90559DB22CC5542B0088D614 /* I_still_don_t_care_about_cookies.entitlements */,
+				90559DB32CC5542B0088D614 /* I still don't care about cookies.entitlements */,
+				90559DA02CC5542A0088D614 /* Resources */,
+			);
+			path = "I still don't care about cookies";
+			sourceTree = "<group>";
+		};
+		90559DA02CC5542A0088D614 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90559DA12CC5542A0088D614 /* Main.html */,
+				90559DA42CC5542A0088D614 /* Icon.png */,
+				90559DA62CC5542A0088D614 /* Style.css */,
+				90559DA82CC5542A0088D614 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90559DBB2CC5542B0088D614 /* I still don't care about cookiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				90559DBC2CC5542B0088D614 /* I_still_don_t_care_about_cookiesTests.swift */,
+			);
+			path = "I still don't care about cookiesTests";
+			sourceTree = "<group>";
+		};
+		90559DC52CC5542B0088D614 /* I still don't care about cookiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90559DC62CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITests.swift */,
+				90559DC82CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITestsLaunchTests.swift */,
+			);
+			path = "I still don't care about cookiesUITests";
+			sourceTree = "<group>";
+		};
+		90559DD22CC5542B0088D614 /* I still don't care about cookies Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90559DE62CC5542B0088D614 /* Resources */,
+				90559DD32CC5542B0088D614 /* SafariWebExtensionHandler.swift */,
+				90559DD52CC5542B0088D614 /* Info.plist */,
+				90559DD62CC5542B0088D614 /* I_still_don_t_care_about_cookies_Extension.entitlements */,
+			);
+			path = "I still don't care about cookies Extension";
+			sourceTree = "<group>";
+		};
+		90559DE62CC5542B0088D614 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90559DE72CC5542B0088D614 /* LICENSE */,
+				90559DE82CC5542B0088D614 /* manifest_v2.json */,
+				90559DE92CC5542B0088D614 /* icons */,
+				90559DEA2CC5542B0088D614 /* manifest_v3.json */,
+				90559DEB2CC5542B0088D614 /* rules.json */,
+				90559DEC2CC5542B0088D614 /* manifest.json */,
+				90559DED2CC5542B0088D614 /* _locales */,
+				90559DEE2CC5542B0088D614 /* data */,
+			);
+			name = Resources;
+			path = "I still don't care about cookies Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90559D9A2CC5542A0088D614 /* I still don't care about cookies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90559DDD2CC5542B0088D614 /* Build configuration list for PBXNativeTarget "I still don't care about cookies" */;
+			buildPhases = (
+				90559D972CC5542A0088D614 /* Sources */,
+				90559D982CC5542A0088D614 /* Frameworks */,
+				90559D992CC5542A0088D614 /* Resources */,
+				90559DDC2CC5542B0088D614 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90559DD12CC5542B0088D614 /* PBXTargetDependency */,
+			);
+			name = "I still don't care about cookies";
+			packageProductDependencies = (
+			);
+			productName = "I still don't care about cookies";
+			productReference = 90559D9B2CC5542A0088D614 /* I still don't care about cookies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90559DB72CC5542B0088D614 /* I still don't care about cookiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90559DE02CC5542B0088D614 /* Build configuration list for PBXNativeTarget "I still don't care about cookiesTests" */;
+			buildPhases = (
+				90559DB42CC5542B0088D614 /* Sources */,
+				90559DB52CC5542B0088D614 /* Frameworks */,
+				90559DB62CC5542B0088D614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90559DBA2CC5542B0088D614 /* PBXTargetDependency */,
+			);
+			name = "I still don't care about cookiesTests";
+			packageProductDependencies = (
+			);
+			productName = "I still don't care about cookiesTests";
+			productReference = 90559DB82CC5542B0088D614 /* I still don't care about cookiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90559DC12CC5542B0088D614 /* I still don't care about cookiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90559DE32CC5542B0088D614 /* Build configuration list for PBXNativeTarget "I still don't care about cookiesUITests" */;
+			buildPhases = (
+				90559DBE2CC5542B0088D614 /* Sources */,
+				90559DBF2CC5542B0088D614 /* Frameworks */,
+				90559DC02CC5542B0088D614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90559DC42CC5542B0088D614 /* PBXTargetDependency */,
+			);
+			name = "I still don't care about cookiesUITests";
+			packageProductDependencies = (
+			);
+			productName = "I still don't care about cookiesUITests";
+			productReference = 90559DC22CC5542B0088D614 /* I still don't care about cookiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		90559DCD2CC5542B0088D614 /* I still don't care about cookies Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90559DD92CC5542B0088D614 /* Build configuration list for PBXNativeTarget "I still don't care about cookies Extension" */;
+			buildPhases = (
+				90559DCA2CC5542B0088D614 /* Sources */,
+				90559DCB2CC5542B0088D614 /* Frameworks */,
+				90559DCC2CC5542B0088D614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I still don't care about cookies Extension";
+			packageProductDependencies = (
+			);
+			productName = "I still don't care about cookies Extension";
+			productReference = 90559DCE2CC5542B0088D614 /* I still don't care about cookies Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90559D932CC5542A0088D614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					90559D9A2CC5542A0088D614 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					90559DB72CC5542B0088D614 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 90559D9A2CC5542A0088D614;
+					};
+					90559DC12CC5542B0088D614 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 90559D9A2CC5542A0088D614;
+					};
+					90559DCD2CC5542B0088D614 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 90559D962CC5542A0088D614 /* Build configuration list for PBXProject "I still don't care about cookies" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90559D922CC5542A0088D614;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 90559D9C2CC5542A0088D614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90559D9A2CC5542A0088D614 /* I still don't care about cookies */,
+				90559DB72CC5542B0088D614 /* I still don't care about cookiesTests */,
+				90559DC12CC5542B0088D614 /* I still don't care about cookiesUITests */,
+				90559DCD2CC5542B0088D614 /* I still don't care about cookies Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90559D992CC5542A0088D614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90559DA52CC5542A0088D614 /* Icon.png in Resources */,
+				90559DAE2CC5542A0088D614 /* Main.storyboard in Resources */,
+				90559DA92CC5542A0088D614 /* Script.js in Resources */,
+				90559DA32CC5542A0088D614 /* Main.html in Resources */,
+				90559DB02CC5542B0088D614 /* Assets.xcassets in Resources */,
+				90559DA72CC5542A0088D614 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DB62CC5542B0088D614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DC02CC5542B0088D614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DCC2CC5542B0088D614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90559DF12CC5542B0088D614 /* icons in Resources */,
+				90559DF02CC5542B0088D614 /* manifest_v2.json in Resources */,
+				90559DF32CC5542B0088D614 /* rules.json in Resources */,
+				90559DEF2CC5542B0088D614 /* LICENSE in Resources */,
+				90559DF42CC5542B0088D614 /* manifest.json in Resources */,
+				90559DF52CC5542B0088D614 /* _locales in Resources */,
+				90559DF62CC5542B0088D614 /* data in Resources */,
+				90559DF22CC5542B0088D614 /* manifest_v3.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90559D972CC5542A0088D614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90559DAB2CC5542A0088D614 /* ViewController.swift in Sources */,
+				90559D9F2CC5542A0088D614 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DB42CC5542B0088D614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90559DBD2CC5542B0088D614 /* I_still_don_t_care_about_cookiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DBE2CC5542B0088D614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90559DC72CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITests.swift in Sources */,
+				90559DC92CC5542B0088D614 /* I_still_don_t_care_about_cookiesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90559DCA2CC5542B0088D614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90559DD42CC5542B0088D614 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90559DBA2CC5542B0088D614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90559D9A2CC5542A0088D614 /* I still don't care about cookies */;
+			targetProxy = 90559DB92CC5542B0088D614 /* PBXContainerItemProxy */;
+		};
+		90559DC42CC5542B0088D614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90559D9A2CC5542A0088D614 /* I still don't care about cookies */;
+			targetProxy = 90559DC32CC5542B0088D614 /* PBXContainerItemProxy */;
+		};
+		90559DD12CC5542B0088D614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90559DCD2CC5542B0088D614 /* I still don't care about cookies Extension */;
+			targetProxy = 90559DD02CC5542B0088D614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90559DA12CC5542A0088D614 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90559DA22CC5542A0088D614 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		90559DAC2CC5542A0088D614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90559DAD2CC5542A0088D614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90559DD72CC5542B0088D614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90559DD82CC5542B0088D614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		90559DDA2CC5542B0088D614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "I still don't care about cookies Extension/I_still_don_t_care_about_cookies_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "I still don't care about cookies Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90559DDB2CC5542B0088D614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "I still don't care about cookies Extension/I_still_don_t_care_about_cookies_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "I still don't care about cookies Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		90559DDE2CC5542B0088D614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "I still don't care about cookies/I still don't care about cookies.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "I still don't care about cookies/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90559DDF2CC5542B0088D614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "I still don't care about cookies/I still don't care about cookies.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "I still don't care about cookies/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I still don't care about cookies";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		90559DE12CC5542B0088D614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I still don't care about cookies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I still don't care about cookies";
+			};
+			name = Debug;
+		};
+		90559DE22CC5542B0088D614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I still don't care about cookies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I still don't care about cookies";
+			};
+			name = Release;
+		};
+		90559DE42CC5542B0088D614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "I still don't care about cookies";
+			};
+			name = Debug;
+		};
+		90559DE52CC5542B0088D614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.I-still-don-t-care-about-cookiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "I still don't care about cookies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90559D962CC5542A0088D614 /* Build configuration list for PBXProject "I still don't care about cookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90559DD72CC5542B0088D614 /* Debug */,
+				90559DD82CC5542B0088D614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90559DD92CC5542B0088D614 /* Build configuration list for PBXNativeTarget "I still don't care about cookies Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90559DDA2CC5542B0088D614 /* Debug */,
+				90559DDB2CC5542B0088D614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90559DDD2CC5542B0088D614 /* Build configuration list for PBXNativeTarget "I still don't care about cookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90559DDE2CC5542B0088D614 /* Debug */,
+				90559DDF2CC5542B0088D614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90559DE02CC5542B0088D614 /* Build configuration list for PBXNativeTarget "I still don't care about cookiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90559DE12CC5542B0088D614 /* Debug */,
+				90559DE22CC5542B0088D614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90559DE32CC5542B0088D614 /* Build configuration list for PBXNativeTarget "I still don't care about cookiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90559DE42CC5542B0088D614 /* Debug */,
+				90559DE52CC5542B0088D614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90559D932CC5542A0088D614 /* Project object */;
+}

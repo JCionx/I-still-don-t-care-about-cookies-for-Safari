@@ -16,3 +16,4 @@ I still don't care about cookies ported to a Safari extension with the help of A
 6. Enable the extension in the Safari settings in the **Extensions** tab
    ![Screenshot 2024-10-20 at 16 55 54](https://github.com/user-attachments/assets/1b86e412-c0c9-4a5f-92a6-a8866adf53ed)
 
+Thanks to [OhMyGuus](https://github.com/OhMyGuus) for the [original extension](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)
